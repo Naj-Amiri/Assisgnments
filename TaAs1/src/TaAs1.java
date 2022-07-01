@@ -5,11 +5,11 @@ public class TaAs1 {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Recup Selenium\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/naj/Drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		driver.get("www.Facebook.com");
-		driver.get("www.Facebook.com");
+		driver.manage().window().fullscreen();
+		driver.close();
 		
 		
 		
