@@ -8,6 +8,7 @@ public class TaAs1 {
 		System.setProperty("webdriver.chrome.driver", "D:\\Recup Selenium\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
+		driver.get("www.Facebook.com");
 		
 		
 	}
