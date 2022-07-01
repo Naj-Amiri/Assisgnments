@@ -9,6 +9,8 @@ public class TaAs1 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.get("www.Facebook.com");
+		driver.get("www.Facebook.com");
+		
 		
 		
 	}
