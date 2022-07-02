@@ -10,6 +10,5 @@ public class TaAs8TNG {
 		
 		System.out.println(" I hope you all doing great");
 		
-		
 	}
 }
