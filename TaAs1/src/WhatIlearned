@@ -1,0 +1,40 @@
+@BeforeSuite
+@BeforeClass
+@BeforeTest
+@BeforeMethods
+@AfterSuite
+@AfterClass
+@AfterTest
+@AfterClass
+@AfterMethods
+@Test(TimeOut=4000)
+@Test(DependsOnMethods)
+@Test(enable=False)
+@Paraters({"URL"}) Always should used it on top of test folder and it used in XML file too.
+      <paramater name="URL" Value="facebook.com"/>
+
+
+<Classess></Classess>
+<Packages>
+    <Run>
+       </Run>
+<Include>
+<Exclude>
+<groups>
+<Classes/>
+
+
+
+System.setProperty("Webdriver.chrome.driver", "D:\\Recup Selenium\\drivers\\chromedriver.exe");
+		RemoteWebDriver driver= new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		driver.get("https://vitshr.com/");
+		String actual = driver.getTitle();
+		String expeted= "VITS HR";
+		Assert.assertEquals(actual, expeted);
+		driver.navigate().to("https://facebook.com/");
+		System.out.println(driver.getCurrentUrl());
+		driver.navigate().forward();
+		driver.navigate().refresh();
+		driver.quit();
