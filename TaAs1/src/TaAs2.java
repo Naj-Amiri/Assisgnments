@@ -8,6 +8,7 @@ public class TaAs2 {
 		System.setProperty("webdriver.chrome.driver", "/Users/naj/Drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Done");
+		driver.close();
 		
 
 	}
