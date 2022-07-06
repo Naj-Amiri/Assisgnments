@@ -12,6 +12,7 @@ public class TaAs1 {
 //=======
 		driver.manage().window().fullscreen();
 		driver.close();
+		System.out.println("kabul")
 		
 		
 //>>>>>>> branch 'master' of https://github.com/Naj-Amiri/Assisgnments.git
